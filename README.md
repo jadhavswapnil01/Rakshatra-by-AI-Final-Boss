@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="Logo.png" alt="Rakshatra Logo" width="200" height="auto" />
+  <img src="path/to/your/logo.png" alt="Rakshatra Logo" width="200" height="auto" />
   
   # RAKSHATRA
   **The Trust OS for Global Adventure Tourism**
@@ -71,7 +71,7 @@ We don't just react to danger; we predict it using real-time data fusion:
 
 ---
 
-## 🏗️ Architecture
+## 🏗️ Architecture & Workflow
 
 The system follows a hybrid **Online-Offline** architecture:
 
@@ -80,7 +80,11 @@ The system follows a hybrid **Online-Offline** architecture:
 3.  **Edge Layer:** Mobile devices sync "Safety DLCs" (Maps, Guides) for offline use.
 4.  **Trust Layer:** Critical actions (SOS, Check-ins) are signed and committed to the Blockchain.
 
-> *[Insert Architecture Diagram Here]*
+<div align="center">
+  <img src="architecture-diagram.png" alt="System Architecture Diagram" width="100%" />
+  <br>
+  <em>Figure 1: High-Level System Architecture</em>
+</div>
 
 ---
 
@@ -115,30 +119,13 @@ Rakshatra operates on a **"Safety as a Service"** model with three revenue strea
 
 ### 1. Clone the Repo
 ```bash
-git clone [https://github.com/yourusername/rakshatra.git](https://github.com/yourusername/rakshatra.git)
+git clone [https://github.com/jadhavswapnil01/Rakshatra-Ai-Final-Boss.git](https://github.com/yourusername/rakshatra.git)
 cd rakshatra
 
-2. Backend Setup
-Bash
-cd backend
+2. Backend SetupBashcd backend
 pip install -r requirements.txt
 uvicorn main:app --reload
-3. Mobile App Setup
-Bash
-cd mobile_app
+3. Mobile App SetupBashcd mobile_app
 flutter pub get
 flutter run
-🔮 Future Roadmap
-Phase 1: Pilot launch in Himachal Pradesh / Northeast India (B2G Focus).
-
-Phase 2: Integration with IoT Wearables (Smartwatches) for bio-metric SOS.
-
-Phase 3: Global expansion to SE Asia & integration with Embassy databases.
-
-👥 Contributors
-[Team Name] - AI FINAL BOSS
-
-[Team Member Name] - Swapnil Jadhav 
-[Team Member Name] - Avishkar Suryawanshi
-
-<div align="center"> <sub>Built for VoyageHack 3.0. Transforming Tourism with Trust.</sub> </div>
+🔮 Future RoadmapPhase 1: Pilot launch in Himachal Pradesh / Northeast India (B2G Focus).Phase 2: Integration with IoT Wearables (Smartwatches) for bio-metric SOS.Phase 3: Global expansion to SE Asia & integration with Embassy databases.👥 Contributors<div align="center"><h3>Team: AI FINAL BOSS</h3>Swapnil JadhavAvishkar Suryawanshi👨‍💻 Full Stack / AI Lead🔗 Blockchain / Backend Lead<a href="https://www.google.com/search?q=https://github.com/SwapnilJadhavProfile">GitHub</a><a href="https://www.google.com/search?q=https://github.com/AvishkarProfile">GitHub</a></div><div align="center"><sub>Built for AI BOOMI Transforming Tourism with Trust.</sub></div>
