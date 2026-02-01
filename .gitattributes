@@ -1,0 +1,6 @@
+*.pt filter=lfs diff=lfs merge=lfs -text
+*.db filter=lfs diff=lfs merge=lfs -text
+*.json !text !filter !merge !diff
+package.json !text !filter !merge !diff
+package-lock.json !text !filter !merge !diff
+.vscode/settings.json !text !filter !merge !diff

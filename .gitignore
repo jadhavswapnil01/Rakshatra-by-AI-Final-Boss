@@ -1,0 +1,23 @@
+Backend/severity_model_bert/model_weights.pt
+Backend/radius_model_bert/model_weights.pt
+*.db
+*.pt
+Backend/storage/vector_dbs/
+
+# Python
+venv/
+__pycache__/
+*.pyd
+*.dll
+
+# Node
+node_modules/
+dist/
+build/
+
+# Vector DBs (recommended to ignore)
+Backend/storage/vector_dbs/
+
+# OS
+.DS_Store
+Thumbs.db
