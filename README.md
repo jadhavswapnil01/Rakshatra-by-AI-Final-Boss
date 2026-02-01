@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="path/to/your/logo.png" alt="Rakshatra Logo" width="200" height="auto" />
+  <img src="Logo.png" alt="Rakshatra Logo" width="200" height="auto" />
   
   # RAKSHATRA
   **The Trust OS for Global Adventure Tourism**
